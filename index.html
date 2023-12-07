@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="sript.js"></script>
+</head>
+<body id="body">
+  <header>
+    <nav class="navbar navbar-fixed  bg-body-tertiary " >
+        <div class="w-25">
+          <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <img src="Images/menu.svg">
+          </button>
+          <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+               <div>
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                  <img src="Images/menu.svg">
+                </button>
+                <a href="#"> <img src="Images/Youtubelogo.svg" width="100px"></a>
+               </div> 
+               <div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              </div>
+            <div class="offcanvas-body ">
+              <div>
+                <ul class="d-flex flex-column navbar-nav ">
+                  <li>
+                    <button class="buttons" ><img src="Images/home.svg" /> Home</button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/shorts.svg" /> Shorts
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/subscription.svg" /> Subscriptions
+                    </button>
+                  </li>
+                  <hr />
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/your channel.svg" width="25px" /> Your Channel
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/history.svg" /> History
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/your videos.svg" /> Your Videos
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/watch later.svg" /> Watch later
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/liked.svg" /> Liked Videos
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/playlists.svg" /> Playlists
+                    </button>
+                  </li>
+                  <hr />
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/trending.svg" /> Trending
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/shopping.svg" /> Shoppping
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/music plain.svg" /> Music
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/movies.svg" /> Movies
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons"><img src="Images/live.svg" /> Live</button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/gaming.svg" /> Gaming
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons"><img src="Images/news.svg" /> News</button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/podcasts.svg"  /> Podcasts
+                    </button>
+                  </li>
+                  <hr />
+                  <h3>More from YouTube</h3>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/youtube premium.svg" width="25px"/> Youtube Premium
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/ytstudio.svg" width="25px"/> Youtube Studio
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/youtube music.svg" width="25px" /> Youtube Music
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/ytkids.svg" width="25px"/> Youtube Kids
+                    </button>
+                  </li>
+                  <hr />
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/settings.svg" /> Settings
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/report history.svg" /> Report History
+                    </button>
+                  </li>
+                  <li>
+                    <button class="buttons"><img src="Images/help.svg" /> Help</button>
+                  </li>
+                  <li>
+                    <button class="buttons">
+                      <img src="Images/send feedback.svg" /> Send feedback
+                    </button>
+                  </li>
+                  <hr/>
+                  <li><span class="terms">About Press Copyright Contact us Creators Advertise Developers<br>
+                    Terms Privacy Policy & Safety How YouTube works
+                    Test new features</span><br>
+                    <span class="google">© 2023 Google LLC</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a href="#"> <img src="Images/Youtubelogo.svg" width="100px"></a>
+        </div>
+        <div class=" p-0 m-0 w-50" >
+          <form class="d-flex " role="search">
+            <input id="search"  class="form-control me-0 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light btn-outline-secondary "  type="submit"><i class="bi bi-search"></i></button>
+            <button class="btn btn-light btn-outline-white rounded-circle ms-2" width="50px" height="50px">
+            <img  src="Images/mic.svg" width="25px">
+            </button>
+          </form>
+          
+        </div>
+        <div class="w-25">
+            <ul class="d-flex flex-row navbar-nav  justify-content-around me-5 ms-5">
+              
+              <li class="nav-item">
+                <button class="btn btn-light btn-outline-white rounded-circle"><img  src="Images/create video.svg" width="30px">
+                </button></li>
+              <li class="nav-item">
+                <button class="btn btn-light btn-outline-white rounded-circle"><img src="Images/notifications.svg" width="30px"></button>
+              </li>
+              <li class="nav-item">
+                <button class="btn"><img class="rounded-circle" src="Images/profilepic.jpg"  width="35px"></a>
+              </li>
+            </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="main" class="container-fluid">
+    <div  class="row d-flex flex-wrap">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7  "> 
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/O-PiFvnTkOI" class="rounded-4 ms-3 " title="YouTube video" allowfullscreen></iframe>
+        </div>
+        <p class="fw-bold">"The North Remembers" #ForTheThrone Clip | Game of Thrones | Season 7</p>
+        <div class="navbar navbar-fixed d-flex justify-content-between align-content-around flex-wrap">
+          <div class="d-flex gap-3">
+            <img src="Images/game of thrones logo.jpg" class="rounded-circle" width="45px"> 
+            <div>
+              <div>GameofThrones</div>
+              <div>Subscribers</div>
+            </div>
+            <button class="btn btn-dark rounded-5">Subscribe</button>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="btn-group toggle" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-light"><img src="Images/likee.svg"> 99 K</button>
+              <button type="button" class="btn btn-light"> <img src="Images/dislike.svg"></button>
+            </div>
+            <button class="btn btn-light rounded-5"
+            ><img src="Images/share.svg" alt=""> Share
+            </button>
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="Images/options.svg" alt="">
+            </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><img src="Images/download.svg" alt="">Download</a></li>
+                <li><a class="dropdown-item" href="#"><img src="Images/cut.svg" alt=""> Clip</a></li>
+                <li><a class="dropdown-item" href="#"><img src="Images/save.svg" alt=""> Save</a></li>
+                <li><a class="dropdown-item" href="#"><img src="Images/report.svg" alt=""> Report</a></li>
+              </ul> 
+          </div>
+        </div>
+        <div class="bg-light p-3 rounded-4 mt-4">
+          7,042,594 views  Nov 13, 2018,<br>
+          The North Remembers #ForTheThrone.<br>
+          The final season of Game of Thrones returns in April 
+          <div id="demo" style="display:none">
+
+            <div class="bg-transparent ">
+              <h4 class="mt-4">Transcript</h4>
+              <h6 class="mt-3">Follow along using the transcript.</h6>
+                <div class="d-flex flex-row gap-3 mt-4 align-items-center">
+                  <img class="rounded-circle " width="80px" src="Images/game of thrones logo.jpg" alt="">
+                    <div>
+                     GameofThrones<br>
+                    4.73M subscribers
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around gap-3 mt-3 pb-5">
+                  <button class="btn btn-light col-5 rounded-5">Videos</button>
+                  <button class="btn btn-light col-5 rounded-5">About</button>
+                </div>
+            </div>
+          </div>
+          <a id="seemore" class="pe-auto text-decoration-none text-dark bg-transparent m-0 p-0 " onclick="more()">....more</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-5">
+        
+        <div id="filters">
+          <button class="filterbutton">GOT</button>
+          <button class="filterbutton">Jon Snow</button>
+          <button class="filterbutton">Game of thrones</button>
+          <button class="filterbutton">Soundtracks</button>
+          <button class="filterbutton">Season 1</button>
+          <button class="filterbutton">Netflix</button>
+          <button class="filterbutton">Dragon</button>
+          <button class="filterbutton">Series</button>
+          <button class="filterbutton">Dragon Fight</button>
+          <button class="filterbutton">Winter is Coming</button>
+          <button class="filterbutton">Starks</button>
+          <button class="filterbutton">Cersei</button>
+          <button class="filterbutton">Must Watch</button>
+          <button class="filterbutton">GOT fans</button>
+          
+        </div>
+      
+              <div class="suggestions">
+                
+
+                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                  <div>
+                    <img src="Images/church scene.webp" class="rounded-4" width="250px" alt="">
+                  </div>
+                  <div class="small  text-nowrap">
+                    Game of Thrones Season 6: Episode #10 - Wildfire (HBO)<br><br>
+                    GameofThrones<br>
+                    3.5M views 7 years ago<br>
+                  </div>
+                </div>
+                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                  <div>
+                    <img src="Images/season 7.webp" class="rounded-4" width="250px" alt="">
+                  </div>
+                  <div class="small  text-nowrap">
+                    Game of Thrones: Season 7 Episode 4: Brienne and Arya (HBO)<br><br>
+                    GameofThrones<br>
+                    20M views 6 years ago<br>
+                  </div>
+                </div>
+                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                  <div>
+                    <img src="Images/jon snow denrys.webp" class="rounded-4" width="250px" alt="">
+                  </div>
+                  <div class="small  text-nowrap">
+                    Jon Snow & Daenerys Targaryen Meet for the First Time | Game of Thrones | <br><br>
+                    HBO<br>
+                    6M views 2 years ago<br>
+                  </div>
+                </div>
+                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                  <div>
+                    <img src="Images/dragon scene.webp" class="rounded-4" width="250px" alt="">
+                  </div>
+                  <div class="small  text-nowrap">
+                    Epic Dragon Scene Game of Thrones Season 3 Daenerys Targaryen Rise to Power (Part 1) (HD)<br><br>
+                    Blazor26 (Blake Ezor)<br>
+                    22M views 10 years ago<br>
+                  </div>
+                </div>
+                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                  <div>
+                    <img src="Images/vala dohare.webp" class="rounded-4" width="250px" alt="">
+                  </div>
+                  <div class="small  text-nowrap">
+                    Daenerys meets Barristan Selmy - Game of Thrones season 3 episode 1: Valar <br><br>
+                    john lescano<br>
+                    23M views 10 years ago<br>
+                  </div>
+                </div>
+               </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-5">
+      <textarea type="text" id="comment-input" placeholder="Add a comment"></textarea>
+      <div class="d-flex flex-row-reverse gap-3">
+        <button class="btn btn-primary " onclick="addComment()">Comment</button>
+      <button class="btn btn-light " onclick="clearcom()">Cancel</button>
+    </div>
+      <div id="comment-section">
+        <div id="comment-list"></div>
+      </div>
+  </div>
+    </div>
+
+  
+    
+  
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
