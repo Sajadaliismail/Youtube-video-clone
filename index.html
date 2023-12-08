@@ -11,8 +11,8 @@
 </head>
 <body id="body">
   <header>
-    <nav class="navbar navbar-fixed  bg-body-tertiary " >
-        <div class="w-25">
+    <nav id="mainnav" class="navbar navbar-fixed  bg-body-tertiary " >
+        <div id="left1" class="">
           <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
             <img src="Images/menu.svg">
           </button>
@@ -164,8 +164,8 @@
           </div>
           <a href="#"> <img src="Images/Youtubelogo.svg" width="100px"></a>
         </div>
-        <div class=" p-0 m-0 w-50" >
-          <form class="d-flex " role="search">
+        <div id="centre1" class=" p-0 m-0 " >
+          <form id="search1" class="d-flex " role="search">
             <input id="search"  class="form-control me-0 " type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-light btn-outline-secondary "  type="submit"><i class="bi bi-search"></i></button>
             <button class="btn btn-light btn-outline-white rounded-circle ms-2" width="50px" height="50px">
@@ -174,7 +174,7 @@
           </form>
           
         </div>
-        <div class="w-25">
+        <div class="w-25" id="rigth1">
             <ul class="d-flex flex-row navbar-nav  justify-content-around me-5 ms-5">
               
               <li class="nav-item">
@@ -209,7 +209,7 @@
             <button class="btn btn-dark rounded-5">Subscribe</button>
           </div>
           <div class="d-flex justify-content-between">
-            <div class="btn-group toggle" role="group" aria-label="Basic example">
+            <div id="buttongrp" class="btn-group toggle" role="group" aria-label="Basic example">
               <button type="button" class="btn btn-light"><img src="Images/likee.svg"> 99 K</button>
               <button type="button" class="btn btn-light"> <img src="Images/dislike.svg"></button>
             </div>
@@ -272,20 +272,20 @@
           
         </div>
       
-              <div class="suggestions">
+              <div class="container-fluid suggestions">
                 
 
-                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                <div id="sugg" class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
                   <div>
-                    <img src="Images/church scene.webp" class="rounded-4" width="250px" alt="">
+                    <img src="Images/church scene.webp" class="rounded-4  " width="250px" alt="">
                   </div>
-                  <div class="small  text-nowrap">
-                    Game of Thrones Season 6: Episode #10 - Wildfire (HBO)<br><br>
+                  <div  class="small  text-nowrap">
+                    <p>Game of Thrones Season 6: Episode #10 - Wildfire (HBO)<br><br>
                     GameofThrones<br>
-                    3.5M views 7 years ago<br>
+                    3.5M views 7 years ago<br></p>
                   </div>
                 </div>
-                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                <div id="sugg" class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
                   <div>
                     <img src="Images/season 7.webp" class="rounded-4" width="250px" alt="">
                   </div>
@@ -295,7 +295,7 @@
                     20M views 6 years ago<br>
                   </div>
                 </div>
-                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                <div id="sugg" class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
                   <div>
                     <img src="Images/jon snow denrys.webp" class="rounded-4" width="250px" alt="">
                   </div>
@@ -305,7 +305,7 @@
                     6M views 2 years ago<br>
                   </div>
                 </div>
-                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                <div id="sugg" class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
                   <div>
                     <img src="Images/dragon scene.webp" class="rounded-4" width="250px" alt="">
                   </div>
@@ -315,7 +315,7 @@
                     22M views 10 years ago<br>
                   </div>
                 </div>
-                <div class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
+                <div id="sugg" class="d-flex flex-row align-items-center gap-2 mt-3 ms-3">
                   <div>
                     <img src="Images/vala dohare.webp" class="rounded-4" width="250px" alt="">
                   </div>
@@ -327,7 +327,7 @@
                 </div>
                </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-5">
+      <div id="text2" class="col-xs-12 col-sm-12 col-md-9 col-lg-5">
       <textarea type="text" id="comment-input" placeholder="Add a comment"></textarea>
       <div class="d-flex flex-row-reverse gap-3">
         <button class="btn btn-primary " onclick="addComment()">Comment</button>

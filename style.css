@@ -1,6 +1,9 @@
 #staticBackdrop{
   width: 240px;
 }
+
+
+
 .google{
   color: #7d7c7c;
   font-size: small;
@@ -181,7 +184,7 @@
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 1292px) {
+@media screen and (min-width: 600px) {
   .suggestions {
     width: 100%;
     overflow: hidden;
@@ -189,16 +192,61 @@
   }
 
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* On screens that are 650px wide or less, make the columns stack on top of each other instead of next to each other */
+
  
+
+@media (max-width: 650px ){
   #main{
     display: inline-block;
+    padding-right: 50px;
   
   }
   .suggestions {
-    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
     width: 100%;
     overflow: hidden;
   }
+
+  #sugg img{
+    min-width: 150px;
+    max-width: 300PX;
+    width: 100%;
+
+  }
+  #mainnav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+#left1{
+  width: 45%;
+  overflow: hidden;
+  height: 30px;
+}
+#search1 input{display: none;
+}
+#rigth1{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+width: 50%;
+float: left;
+margin: 0;
+justify-content: start;
+padding: 0;
+}
+#centre1{
+display: none;
+margin: 0%;
+padding: 0%;
+}
+#rigth1 li{
+width: 50%;
+}
+#search1{width: 0%;
+}
 }
